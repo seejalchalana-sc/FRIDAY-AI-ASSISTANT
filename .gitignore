@@ -1,0 +1,17 @@
+venv/
+.env
+
+# Build artifacts
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# Personal data — never share
+conversation_history.json
+notes.json
+expenses.json
+reminders.json
+face_data/
+face_model.yml
